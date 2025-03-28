@@ -1,25 +1,25 @@
 /* Main Navigation */
-ul.main-nav {
+.main-nav ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
 }
 
-ul.main-nav li {
+.main-nav ul li {
     font-weight: 600;
     padding-right: 1px;
-    border-right: 1px solid rgb(87, 226, 0) !important;
 }
 
-ul.main-nav li a {
+.main-nav ul li a {
     text-decoration: none;
     color: rgb(37, 140, 201) !important;
 }
 
-ul.main-nav li a:hover {
+.main-nav ul li a:hover {
     color: rgb(72, 1, 51) !important;
     text-decoration: solid;
-    font-size: 1.1rem;
+    font-weight: lighter;
+
 }
 
 /* Right Navigation */
@@ -29,12 +29,17 @@ ul.main-nav li a:hover {
 }
 
 .right-nav ul li {
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .right-nav ul li a {
     text-decoration: none;
-    color: rgb(37, 140, 201) !important;
+    color: rgb(17, 77, 65) !important;
+    font-size: 0.8rem;
+}
+
+.right-nav ul li a:hover {
+    font-weight: bold;
 }
 
 
