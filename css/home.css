@@ -1,0 +1,51 @@
+/* Main Navigation */
+ul.main-nav {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+ul.main-nav li {
+    font-weight: 600;
+    padding-right: 1px;
+    border-right: 1px solid rgb(87, 226, 0) !important;
+}
+
+ul.main-nav li a {
+    text-decoration: none;
+    color: rgb(37, 140, 201) !important;
+}
+
+ul.main-nav li a:hover {
+    color: rgb(72, 1, 51) !important;
+    text-decoration: solid;
+    font-size: 1.1rem;
+}
+
+/* Right Navigation */
+.right-nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.right-nav ul li {
+    font-weight: 600;
+}
+
+.right-nav ul li a {
+    text-decoration: none;
+    color: rgb(37, 140, 201) !important;
+}
+
+
+/* General Body Styles */
+body {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif !important;
+}
+
+/* Images */
+body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
