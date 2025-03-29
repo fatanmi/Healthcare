@@ -101,6 +101,53 @@ body img {
     opacity: 0.7;
 }
 
+.subinfo-columns {
+
+    column-width: 20rem;
+    column-gap: 1rem;
+    padding-right: 1rem;
+}
+
+.subinfo-item {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    break-inside: avoid;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+.action {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    max-width: 5rem;
+    max-height: 5rem;
+    background-color: #dee2e6;
+    border-radius: 0.1rem;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+.action:hover {
+    opacity: 0.7;
+    transform: scale(1.02);
+}
+
+@media (max-width: 576px) {
+    .action {
+        max-width: 3rem;
+        max-height: 3rem;
+    }
+}
+
 .btn-primary {
     border-radius: 2em;
     padding: 0.5em 1.5em;
