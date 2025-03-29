@@ -46,11 +46,47 @@
 /* General Body Styles */
 body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif !important;
+
 }
 
 /* Images */
 body img {
     display: block;
-    max-width: 100%;
     height: auto;
+}
+
+
+.card-img-top {
+    /* width: 10%; */
+    border-radius: 100%;
+    margin: 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    padding: 0;
+    width: 8rem;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+.card-link {
+    text-decoration: none;
+    outline: none;
+
+    h6 {
+        font-size: 1rem;
+    }
+}
+
+.btn-primary {
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
 }
